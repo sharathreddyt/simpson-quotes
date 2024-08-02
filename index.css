@@ -1,0 +1,71 @@
+@import url(./reset.css);
+
+:root {
+    --primary-color: #16a085;
+    --secondary-color: #FEFB1E;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.app-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.app-header {
+    height: 300px;
+    width: 600px;
+    margin: auto;
+}
+
+.header-container {
+    flex-basis: 40%;
+}
+
+.quote-container {
+    flex-basis: 60%;
+}
+
+.quote {
+    height: 300px;
+    width: 500px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-style: italic;
+    text-align: center;
+
+}
+
+.quote-image-container {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
