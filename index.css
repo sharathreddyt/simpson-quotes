@@ -35,7 +35,8 @@ body {
 }
 
 .quote {
-    height: 300px;
+    min-height: 78px;
+    height: auto;
     width: 500px;
     background-color: var(--secondary-color);
     color: var(--primary-color);
@@ -44,14 +45,14 @@ body {
     font-size: 1.5rem;
     font-style: italic;
     text-align: center;
-
+    border: 1px solid black;
 }
 
 .quote-image-container {
     min-height: 400px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 .button-container {
